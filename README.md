@@ -22,6 +22,20 @@ This project provisions AWS infrastructure using Terraform.
 ## Architecture
 
 Terraform creates a public AWS VPC with an EC2 instance accessible through the Internet Gateway.
+## AWS Architecture
+
+```text
+Internet
+   |
+Internet Gateway
+   |
+Public Route Table
+   |
+Public Subnet
+   |
+Security Group
+   |
+EC2 Instance
 
 ## Terraform Commands
 
