@@ -21,3 +21,8 @@ variable "instance_type" {
   type        = string
   default     = "t3.micro"
 }
+
+variable "ssh_allowed_cidr" {
+  description = "CIDR block allowed to access SSH"
+  type        = string
+}
